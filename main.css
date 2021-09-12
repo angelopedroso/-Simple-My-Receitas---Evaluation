@@ -13,7 +13,7 @@ body{
 }
 
 header{
-    background: rgb(182, 30, 30);
+    background: #cc0429;
     height: 65px;
     position: fixed;
     width: 100%;
@@ -44,26 +44,34 @@ nav a:hover{
     color: #dfae27;
 }
 main{
+    padding-top: 30px;
     background: #F4CB89;
     height: 100%;
 }
 
+.destaq{
+    height: 60px;
+    width: 100%;
+    background: #588C8C;
+}
+
+.destaq h2{
+    padding-top: 15px;
+    text-align: center;
+    color: #E6E6E6;
+    font-family: 'Glory', sans-serif;
+    font-weight: 500;
+}
+
 .amostra{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 0px;
 }
 
 .item1{
-    background: rgb(255, 255, 255);
-    height: 490px;
-    width: 710px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
     margin-bottom: 30px;
 }
 
-.item2{
+.item1, .item2{
     background: rgb(255, 255, 255);
     height: 490px;
     width: 710px;
@@ -72,11 +80,7 @@ main{
     border-radius: 5px;
 }
 
-.item1 img{
-    border-radius: 5px 5px 0px 0px;
-}
-
-.item2 img{
+.item1 img, .item2 img{
     border-radius: 5px 5px 0px 0px;
 }
 
@@ -98,10 +102,6 @@ main{
     margin-top: 35px;
 }
 
-.itemlink1:hover{
-    width: 400px;
-    height: 390px;
-}
 .comentbolo, .comentming{
     margin-top: 3px;
     text-align: center;
@@ -117,7 +117,7 @@ footer{
     position: absolute;
 }
 
-.linkslogo, .direitos{
+.linkslogo{
     text-align: center;
     margin-top: 20px;
 }
@@ -128,16 +128,14 @@ footer{
 }
 
 .direitos{
-    margin-top: 15px;
+    text-align: end;
+    margin: 15px 25px 0px 0px;
+
 }
 
 .direitos p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: 100;
     color: white;
-}
-
-.direitos span{
-    font-weight: bold;
-    color: #68a8a8;
 }
