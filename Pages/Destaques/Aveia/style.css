@@ -64,12 +64,12 @@ main{
     color: #6B0C22;
 }
 
-.imgbolo{
+.imgaveia{
     margin: 20px 0px 30px 0px;
     text-align: center;
 }
 
-.imgbolo img{
+.imgaveia img{
     border-radius: 10px;
 }
 
@@ -90,7 +90,7 @@ main{
 .info-ingre li, .info-modo li, .macros p{
     font: normal 400 16px Arial, sans-serif;
     color: rgb(94, 94, 94);
-    padding-bottom: 8px;
+    padding-bottom: 12px;
 
 }
 .last-li-ingre, .last-li-modo{
@@ -106,6 +106,31 @@ main{
 
 .macros p{
     margin-top: 15px;
+}
+
+.tabelnutri, th, td{
+    margin: 16px 0px 0px 19px;
+    border: 1px solid #6B0C22;
+    font: normal 18px Arial, sans-serif;
+    border-collapse: collapse;
+    padding: 8px 32px;
+}
+
+.tabelnutri thead, .tabelnutri tfoot{
+    background: #6B0C22;
+    color: white;
+}
+.tabelnutri thead th, .tabelnutri tfoot th, .tabelnutri tfoot td{
+    text-align: center;
+    border-width: 1px;
+    border-color: #011C26;
+}
+
+.tabelnutri th{
+    text-align: start;
+}
+.tabelnutri td{
+    text-align: center;
 }
 
 footer{
