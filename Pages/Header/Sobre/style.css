@@ -61,6 +61,8 @@ main{
 
 #titulo{
     text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
     font-family: 'Glory', sans-serif;
     color: #6B0C22;
 }
@@ -75,7 +77,8 @@ main{
 .bg h3{
     font-family: 'Glory', sans-serif;
     color: #6B0C22;
-    font-size: 28px;
+    font-size: 1.5em;
+    text-transform: uppercase;
     margin-left: 220px;
 }
 
