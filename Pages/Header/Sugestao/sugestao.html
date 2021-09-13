@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho - Angelo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../../../index.html" class=".titulo"><img src="../../../Images/logo.png" alt="Logo"></a>
+            <ul>
+                <li>
+                    <a href="../Receitas/receita.html">receitas</a>
+                </li>
+                <li>
+                    <a href="sugestao.html">sugestão</a>
+                </li>
+                <li>
+                    <a href="../Sobre/sobre.html">sobre</a>
+                </li>
+            </ul>
+        </nav>       
+    </header>
+
+    <main>
+        <div class="bg">
+            <h1 id="titulo">Sugestão de Receita</h1>
+            <form>
+                <fieldset class="nome-group">
+                    <label for="nome">Nome da Receita</label>
+                    <br>
+                    <input type="text" name="nome-receita" id="nome" required>      
+                    <div class="line"></div>             
+                </fieldset>
+
+                <div class="campo-textarea">
+                    <label for="ingre">Ingredientes</label>
+                    <br>
+                    <textarea name="ingre" id="ingre" rows="6" required></textarea>
+                </div>
+
+                <div class="campo-textarea">
+                    <label for="modo">Modo de Preparo</label>
+                    <br>
+                    <textarea name="modo" id="modo" rows="6" required></textarea>
+                    <div class="line"></div>
+                </div>
+
+                <fieldset class="macro-group">
+                    <div>
+                        <label for="carb">Carboidratos</label>
+                        <br>
+                        <input type="text" name="carbarboidratos" id="carb">
+                    </div>
+
+                    <div>
+                        <label for="prot">Proteínas</label>
+                        <br>
+                        <input type="text" name="proteinas" id="prot">
+                    </div>
+
+                    <div>
+                        <label for="gord">Gorduras</label>
+                        <br>
+                        <input type="text" name="gorduras" id="gord">
+                    </div>
+                </fieldset>
+
+                <button class="btn" type="submit">Enviar Receita</button>
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="info">
+            <div class="linkslogo">
+                <a href="https://github.com/angelopedroso" target="_blank" class="gith">
+                    <img src="../../../Images/footer/gitlogo.png" alt="Github Logo">
+                </a>
+                
+                <a href="mailto:angelopedroso0@gmail.com" target="_blank" class="gmail">
+                    <img src="../../../Images/footer/gmailogo.png" alt="Gmail Logo">
+                </a>
+    
+                <a href="https://www.esucri.com.br" target="_blank"
+                 class="esucri"> 
+                    <img src="../../../Images/footer/esucrilogo.png" alt="Esucri">
+                </a>
+            </div>
+            <div class="direitos">
+                <p>Angelo Pedroso © 2021 | Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

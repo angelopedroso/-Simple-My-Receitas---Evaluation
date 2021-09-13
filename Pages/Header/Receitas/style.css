@@ -63,7 +63,7 @@ main{
     margin-bottom: 40px;
 }
 
-.titulo{
+#titulo-pancake, #titulo-sandwich{
     text-align: center;
     font-family: 'Glory', sans-serif;
     color: #6B0C22;

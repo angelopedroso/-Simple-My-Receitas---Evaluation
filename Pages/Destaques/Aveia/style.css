@@ -58,18 +58,18 @@ main{
     background-color: white;
     border-radius: 10px;
 }
-.titulo{
+#titulo{
     text-align: center;
     font-family: 'Glory', sans-serif;
     color: #6B0C22;
 }
 
-.imgaveia{
+#imgaveia{
     margin: 20px 0px 30px 0px;
     text-align: center;
 }
 
-.imgaveia img{
+#imgaveia img{
     border-radius: 10px;
 }
 

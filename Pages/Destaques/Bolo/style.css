@@ -58,18 +58,18 @@ main{
     background-color: white;
     border-radius: 10px;
 }
-.titulo{
+#titulo{
     text-align: center;
     font-family: 'Glory', sans-serif;
     color: #6B0C22;
 }
 
-.imgbolo{
+#imgbolo{
     margin: 20px 0px 30px 0px;
     text-align: center;
 }
 
-.imgbolo img{
+#imgbolo img{
     border-radius: 10px;
 }
 

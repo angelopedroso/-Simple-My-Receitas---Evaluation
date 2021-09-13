@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding-top: 65px;
+    padding-bottom: 55px;
+}
+
+header{
+    background: #cc0429;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+header nav{
+    height: 100%;
+    padding-top: 8px;
+    text-align: center;
+}
+
+nav ul{
+    padding-top: 5px;
+}
+nav li, nav a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 650;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: #dfae27;
+}
+
+main{
+    padding: 40px 40px;
+    background: #F4CB89;
+    height: 100%;
+
+}
+
+.bg{
+    height: 100%;
+    width: 100%;
+    padding: 30px 0px 77px 0px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+form{
+    text-align: center;
+}
+
+#titulo{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Glory', sans-serif;
+    color: #6B0C22;
+    margin-bottom: 2.5em;
+}
+
+fieldset{
+    border: 0;
+    margin-bottom: 20px;
+}
+
+/* input, textarea, button{
+    border-radius: 5px;
+} */
+
+.campo-textarea{
+    margin-bottom: 1em;
+}
+
+.campo-textarea label, .nome-group label, .macro-group label{
+    margin-bottom: 1.3em;
+    color: #6B0C22;
+    font: normal 550 1.3em 'Glory', sans-serif;
+    text-transform: uppercase;
+}
+
+.nome-group input[type = text], .macro-group input[type = text]{
+    border: 0;
+	background: none;
+	margin: 20px auto;
+	border: 2px solid #093e52;
+    width: 35em;
+	padding: 10px 16px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+    font: normal 400 1em Arial, Helvetica, sans-serif;
+}
+
+.nome-group input[type = text]:focus, .macro-group input[type = text]:focus{
+    border-color: #dfae27;
+}
+.campo-textarea textarea{
+    background: none;
+    margin: 20px auto;
+    border: 2px solid #093e52;
+    width: 48em;
+    height: 24em;
+    padding: 15px 15px;
+    color: black;
+    outline: 0;
+    border-radius: 10px;
+    font: normal 400 1em Arial, Helvetica, sans-serif;
+}
+
+.campo-textarea textarea:focus{
+    border-color: #dfae27;
+}
+
+.btn{
+    border: 0;
+	background: none;
+    text-transform: uppercase;
+	margin: 20px auto;
+	border: 2px solid #cc0429;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+    font-weight: 525;
+	border-radius: 24px;
+	cursor: pointer;
+}
+
+.btn:hover{
+    background: #cc0429;
+    color: white;    
+}
+
+.line{
+    height: 2px;
+    width: 83%;
+    background: #588C8C;
+    margin: 35px 0px 30px 150px;
+}
+
+footer{
+    background: #1F1F1F;
+    height: 115px;
+    width: 100%;
+    position: absolute;
+}
+
+.linkslogo{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gmail, .gith, .esucri{
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.direitos{
+    text-align: end;
+    margin: 15px 25px 0px 0px;
+
+}
+
+.direitos p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+}
