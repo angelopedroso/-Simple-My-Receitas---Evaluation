@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding-top: 65px;
+    padding-bottom: 55px;
+}
+
+header{
+    background: #cc0429;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+header nav{
+    height: 100%;
+    padding-top: 8px;
+    text-align: center;
+}
+
+nav ul{
+    padding-top: 5px;
+}
+nav li, nav a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 650;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: #dfae27;
+}
+
+main{
+    padding: 40px 40px;
+    background: #F4CB89;
+    height: 100%;
+
+}
+
+.bg{
+    height: 100%;
+    width: 100%;
+    padding: 30px 0px 77px 0px;
+    background-color: white;
+    border-radius: 10px;
+}
+.titulo{
+    text-align: center;
+    font-family: 'Glory', sans-serif;
+    color: #6B0C22;
+}
+
+.line{
+    height: 2px;
+    width: 83%;
+    background: #588C8C;
+    margin: 35px 0px 30px 150px;
+}
+
+.bg h3{
+    font-family: 'Glory', sans-serif;
+    color: #6B0C22;
+    font-size: 28px;
+    margin: 30px 0px 15px 220px;
+}
+
+.bg p{
+    margin: 0px 0px 5px 238px;
+    font: normal 500 18px Arial, sans-serif;
+    color: rgb(94, 94, 94);
+}
+
+.bg span{
+    font-weight: 600;
+    color: #011C26;
+}
+
+footer{
+    background: #1F1F1F;
+    height: 115px;
+    width: 100%;
+    position: absolute;
+}
+
+.linkslogo{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gmail, .gith, .esucri{
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.direitos{
+    text-align: end;
+    margin: 15px 25px 0px 0px;
+
+}
+
+.direitos p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+}
