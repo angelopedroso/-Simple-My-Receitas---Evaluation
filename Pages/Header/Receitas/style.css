@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding-top: 65px;
+    padding-bottom: 55px;
+}
+
+header{
+    background: #cc0429;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+header nav{
+    height: 100%;
+    padding-top: 8px;
+    text-align: center;
+}
+
+nav ul{
+    padding-top: 5px;
+}
+nav li, nav a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 650;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: #dfae27;
+}
+
+main{
+    padding: 40px 40px;
+    background: #F4CB89;
+    height: 100%;
+
+}
+
+.bg-pancake, .bg-sandwich-chicken{
+    height: 100%;
+    width: 100%;
+    padding: 30px 0px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.bg-pancake{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Glory', sans-serif;
+    color: #6B0C22;
+}
+
+.imgaveia{
+    margin: 20px 0px 30px 0px;
+    text-align: center;
+}
+
+.imgaveia img{
+    border-radius: 10px;
+}
+
+.info-ingre, .info-modo, .macros{
+    margin-left: 220px;
+}
+
+.info-ingre h3, .info-modo h3, .macros h3{
+    font-family: 'Glory', sans-serif;
+    color: #6B0C22;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+.info-ingre ul, .info-modo ul, .macros p{
+    margin-left: 18px;
+}
+.info-ingre li, .info-modo li, .macros p{
+    font: normal 400 16px Arial, sans-serif;
+    color: rgb(94, 94, 94);
+    padding-bottom: 12px;
+
+}
+.last-li-ingre, .last-li-modo{
+    margin-bottom: 30px;
+}
+
+.line-top, .line-mid, .line-bottom{
+    height: 2px;
+    width: 83%;
+    background: #588C8C;
+    margin-left: 150px;
+}
+
+.macros p{
+    margin-top: 15px;
+}
+
+.tabelnutri, th, td{
+    margin: 16px 0px 0px 19px;
+    border: 1px solid #6B0C22;
+    font: normal 18px Arial, sans-serif;
+    border-collapse: collapse;
+    padding: 8px 32px;
+}
+
+.tabelnutri thead, .tabelnutri tfoot{
+    background: #6B0C22;
+    color: white;
+}
+.tabelnutri thead th, .tabelnutri tfoot th, .tabelnutri tfoot td{
+    text-align: center;
+    border-width: 1px;
+    border-color: #011C26;
+}
+
+.tabelnutri th{
+    text-align: start;
+}
+.tabelnutri td{
+    text-align: center;
+}
+
+footer{
+    background: #1F1F1F;
+    height: 115px;
+    width: 100%;
+    position: absolute;
+}
+
+.linkslogo{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gmail, .gith, .esucri{
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.direitos{
+    text-align: end;
+    margin: 15px 25px 0px 0px;
+
+}
+
+.direitos p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+}
