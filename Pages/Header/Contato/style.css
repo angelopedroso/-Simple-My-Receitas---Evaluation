@@ -68,6 +68,7 @@ form{
     text-align: center;
     font-family: 'Glory', sans-serif;
     color: #6B0C22;
+    padding-top: 1em;
     margin-bottom: 2.5em;
 }
 
@@ -84,26 +85,14 @@ fieldset{
     margin-bottom: 1em;
 }
 
-.campo-textarea label, .nome-group label, .macro-group label{
+.campo-textarea label, .nome-group label, .group label{
     margin-bottom: 1.3em;
     color: #6B0C22;
     font: normal 550 1.3em 'Glory', sans-serif;
     text-transform: uppercase;
 }
 
-.macro-group #prote{
-    margin: 0px 11.2em 0px 11em;
-}
-
-.macro-group #gordu{
-    margin-right: 2.2em;
-}
-
-.macro-group #carbo{
-    margin-left: 1em;
-}
-
-.nome-group input[type = text], .macro-group input[type = number]{
+.nome-group input[type = text], .nome-group input[type = tel], .nome-group input[type = email], .hour input[type = time]{
     border: 0;
 	background: none;
 	margin: 20px auto;
@@ -116,18 +105,25 @@ fieldset{
     font: normal 400 1em Arial, Helvetica, sans-serif;
 }
 
-.macro-group input[type = number]{
-    width: 15em;
-    text-align: inherit;
-    padding: 10px 32px;
-    margin-right: 1em;
+.campradio{
+    margin-right: 10px;
 }
 
-.macro-group #carb, #prot{
-    margin-right: 1.2em;
+.group input[type = radio]{
+    margin: 1.3em 2px 0px 2px;
 }
 
-.nome-group input[type = text]:focus, .macro-group input[type = number]:focus{
+.hour label{
+    margin-right: 10px;
+}
+
+.hour input[type = time]{
+    width: 5em;
+    font: normal 550 1em Arial, Helvetica, sans-serif;
+    margin: 20px auto 0px auto;
+}
+
+.nome-group input[type = text]:focus, .nome-group input[type = tel]:focus, .nome-group input[type = email]:focus, .group input[type = time]:focus{
     border-color: #dfae27;
 }
 
@@ -135,9 +131,9 @@ fieldset{
     background: none;
     margin: 20px auto;
     border: 2px solid #093e52;
-    width: 48em;
-    min-width: 48em;
-    max-width: 48em;
+    width: 68em;
+    min-width: 68em;
+    max-width: 68em;
     height: 24em;
     padding: 15px 15px;
     color: black;
@@ -148,6 +144,11 @@ fieldset{
 
 .campo-textarea textarea:focus{
     border-color: #dfae27;
+}
+
+.nome-group input[type = tel]{
+    text-align: end;
+    width: 20em;
 }
 
 .btn{
@@ -173,6 +174,13 @@ fieldset{
     width: 83%;
     background: #588C8C;
     margin: 35px 0px 30px 150px;
+}
+
+.line1{
+    height: 2px;
+    width: 65%;
+    background: #be9523;
+    margin: 30px 0px 30px 17%;
 }
 
 footer{

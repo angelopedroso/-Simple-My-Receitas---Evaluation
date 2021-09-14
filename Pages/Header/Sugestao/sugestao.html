@@ -21,6 +21,9 @@
                 <li>
                     <a href="../Sobre/sobre.html">sobre</a>
                 </li>
+                <li>
+                    <a href="../Contato/contact.html">contato</a>
+                </li>
             </ul>
         </nav>       
     </header>
@@ -28,11 +31,11 @@
     <main>
         <div class="bg">
             <h1 id="titulo">Sugestão de Receita</h1>
-            <form>
+            <form action="mailto:contato@myreceitas.com" method="POST">
                 <fieldset class="nome-group">
                     <label for="nome">Nome da Receita</label>
                     <br>
-                    <input type="text" name="nome-receita" id="nome" required>      
+                    <input type="text" name="nome-receita" id="nome" maxlength="150" required>      
                     <div class="line"></div>             
                 </fieldset>
 
@@ -51,21 +54,15 @@
 
                 <fieldset class="macro-group">
                     <div>
-                        <label for="carb">Carboidratos</label>
-                        <br>
-                        <input type="text" name="carbarboidratos" id="carb">
+                        <label for="carb" id="carbo">Carboidratos</label>
+                        <label for="prot" id="prote">Proteínas</label>
+                        <label for="gord" id="gordu">Gorduras</label>
                     </div>
 
                     <div>
-                        <label for="prot">Proteínas</label>
-                        <br>
-                        <input type="text" name="proteinas" id="prot">
-                    </div>
-
-                    <div>
-                        <label for="gord">Gorduras</label>
-                        <br>
-                        <input type="text" name="gorduras" id="gord">
+                        <input type="number" min="0" name="carbarboidratos" id="carb">
+                        <input type="number" min="0" name="proteinas" id="prot">
+                        <input type="number" min="0" name="gorduras" id="gord">
                     </div>
                 </fieldset>
 

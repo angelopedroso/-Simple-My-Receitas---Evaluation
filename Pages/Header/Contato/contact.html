@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho - Angelo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../../../index.html" class=".titulo"><img src="../../../Images/logo.png" alt="Logo"></a>
+            <ul>
+                <li>
+                    <a href="../Receitas/receita.html">receitas</a>
+                </li>
+                <li>
+                    <a href="../Sugestao/sugestao.html">sugestão</a>
+                </li>
+                <li>
+                    <a href="../Sobre/sobre.html">sobre</a>
+                </li>
+                <li>
+                    <a href="contact.html">contato</a>
+                </li>
+            </ul>
+        </nav>       
+    </header>
+
+    <main>
+        <div class="bg">
+            <h1 id="titulo">Entre em Contato Conosco</h1>
+            <form action="mailto:contato@myreceitas.com" method="POST">
+                <fieldset class="nome-group">
+                    <div class="campo">
+                        <label for="nome">Nome</label>
+                        <br>
+                        <input type="text" name="nome-receita" id="nome" maxlength="150" required>      
+                    </div>
+
+                    <div class="campo">
+                        <label for="emailcont">E-mail</label>
+                        <br>
+                        <input type="email" name="emailcont" id="emailcont">
+                    </div>
+
+                    <div class="campo">
+                        <label for="empr">Empresa</label>
+                        <br>
+                        <input type="text" name="empresa" id="empr">
+                    </div><br>
+
+                    <div class="campo">
+                        <label for="tele">Telefone</label>
+                        <br>
+                        <input type="tel" name="tele" id="tele">
+                    </div>
+
+                    <div class="campo">
+                        <label for="cel">Celular</label>
+                        <br>
+                        <input type="tel" name="cel" id="cel">
+                    </div><br>
+
+                    <div class="campo">
+                        <label for="assunto">Assunto</label>
+                        <br>
+                        <input type="text" name="assunto" id="assunto">
+                    </div>
+                    <div class="line"></div>             
+                </fieldset>
+
+                
+                <fieldset class="group">
+                    <div class="radio">
+                        <label>Forma de Contato</label>
+                        <br>
+                        <label class="campradio">
+                            <input type="radio" name="fone" value="email" checked>E-mail
+                        </label>
+                        <br>
+                        <label class="campradio">
+                            <input type="radio" name="fone" value="fone">Telefone
+                        </label>                  
+                    </div>
+
+                    <div class="line1"></div>
+
+                    <div class="hour">
+                        <label for="hr">horário de contato</label>
+                        <br>
+                        <input type="time" name="hr" id="hr">
+                    </div>
+                    
+                    <div class="line1"></div>
+
+                    <div class="radio">
+                        <label>Sexo</label><br><br>
+
+                        <label class="campradio">
+                            <input type="radio" name="sexo" value="sexo1" checked>Masculino
+                        </label>
+                        <br>
+                        <label class="campradio">
+                            <input type="radio" name="sexo" value="sexo2">Feminino
+                        </label>    
+                        <br>
+                        <label class="campradio">
+                            <input type="radio" name="sexo" value="sexo3">Outros
+                        </label>        
+                    </div>
+
+                    <div class="line"></div>
+                </fieldset>
+
+                <div class="campo-textarea">
+                    <label for="mens">Deixe sua Mensagem</label>
+                    <br>
+                    <textarea name="mens" id="mens" rows="6" required></textarea>
+                </div>
+
+                <button class="btn" type="submit">Enviar Receita</button>
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="info">
+            <div class="linkslogo">
+                <a href="https://github.com/angelopedroso" target="_blank" class="gith">
+                    <img src="../../../Images/footer/gitlogo.png" alt="Github Logo">
+                </a>
+                
+                <a href="mailto:angelopedroso0@gmail.com" target="_blank" class="gmail">
+                    <img src="../../../Images/footer/gmailogo.png" alt="Gmail Logo">
+                </a>
+    
+                <a href="https://www.esucri.com.br" target="_blank"
+                 class="esucri"> 
+                    <img src="../../../Images/footer/esucrilogo.png" alt="Esucri">
+                </a>
+            </div>
+            <div class="direitos">
+                <p>Angelo Pedroso © 2021 | Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

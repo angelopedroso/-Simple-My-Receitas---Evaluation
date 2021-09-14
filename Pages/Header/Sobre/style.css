@@ -88,6 +88,17 @@ main{
     color: rgb(94, 94, 94);
 }
 
+.sobresite p{
+    margin-bottom: 2.5em;
+    font: normal 500 20px Arial, sans-serif;
+    color: rgb(77, 77, 77);
+}
+
+#hist{
+    margin-top: 2em;
+    padding-right: 10em;
+}
+
 .bg span{
     font-weight: 600;
     color: #011C26;
