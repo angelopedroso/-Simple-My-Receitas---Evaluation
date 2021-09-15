@@ -150,6 +150,11 @@ fieldset{
     border-color: #dfae27;
 }
 
+.coment-g{
+    font: normal 450 1.2em Arial, Helvetica, sans-serif;
+    color: #999999;
+}
+
 .btn{
     border: 0;
 	background: none;
