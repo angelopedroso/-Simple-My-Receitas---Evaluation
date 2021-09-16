@@ -27,21 +27,21 @@ header nav{
     text-align: center;
 }
 
-nav ul{
-    padding-top: 5px;
-}
-nav li, nav a{
-    display: inline;
+nav a{
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 650;
-    padding-right: 10px;
+    padding-right: 1em;
 }
 
 nav a:hover{
     color: #dfae27;
+}
+
+.menu{
+    padding-top: 7px;
 }
 
 main{
@@ -110,7 +110,6 @@ fieldset{
 	border: 2px solid #093e52;
     width: 35em;
 	padding: 10px 16px;
-	outline: 0;
 	color: black;
 	border-radius: 24px;
     font: normal 400 1em Arial, Helvetica, sans-serif;
@@ -128,7 +127,7 @@ fieldset{
 }
 
 .nome-group input[type = text]:focus, .macro-group input[type = number]:focus{
-    border-color: #dfae27;
+    background: #dfae2777;
 }
 
 .campo-textarea textarea{
@@ -141,13 +140,12 @@ fieldset{
     height: 24em;
     padding: 15px 15px;
     color: black;
-    outline: 0;
     border-radius: 10px;
     font: normal 400 1em Arial, Helvetica, sans-serif;
 }
 
 .campo-textarea textarea:focus{
-    border-color: #dfae27;
+    background: #dfae2777;
 }
 
 .coment-g{
@@ -162,7 +160,6 @@ fieldset{
 	margin: 20px auto;
 	border: 2px solid #cc0429;
 	padding: 14px 40px;
-	outline: none;
 	color: black;
     font-weight: 525;
 	border-radius: 24px;
