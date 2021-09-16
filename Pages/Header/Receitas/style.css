@@ -33,7 +33,7 @@ nav a{
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 650;
-    padding-right: 1em;
+    margin-right: 1em;
 }
 
 nav a:hover{
@@ -155,7 +155,7 @@ footer{
 
 .gmail, .gith, .esucri{
     text-decoration: none;
-    padding-right: 5px;
+    margin-right: 5px;
 }
 
 .direitos{
